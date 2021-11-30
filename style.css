@@ -1,0 +1,325 @@
+*, html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    object-fit: cover;
+}
+
+body{
+    font-family: 'Bebas Neue', sans-serif;
+    max-width: 100vw;
+    position: relative;
+}
+.navbar{
+    font-family: 'Lato', sans-serif;
+    width: 100vw;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 14px;
+    position: absolute;
+}
+.navbar a{
+    color: white;
+}
+.navLinkText{
+    font-family: 'Lato', sans-serif;
+    font-size: 10px;
+    letter-spacing: .1em;
+    border-bottom: 1px solid white;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+.navLinkText2{
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 10px;
+    letter-spacing: .1em;
+    margin-top: 10px;
+    border-bottom: 1px solid #414f6b;
+}
+.section2 .navbar{
+    position: relative;;
+}
+
+#layer1, #layer2{
+    width: 100vw;
+    height: 550px
+}
+
+.navBar .navLink{
+    border-bottom: 1px solid #414f6b;
+}
+
+.logo{
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+.content{
+    position: relative;
+}
+.floatText{
+    position:absolute;
+    left: calc(70vw - 55%);
+    width: 150px;
+    top: 3rem;
+}
+.floatLorem{
+    position:absolute;
+    left: calc(75vw - 55%);
+    top: 8rem;
+    font-size: 12px;
+    max-width: calc(90vw - 30%);
+    font-family: 'Lato', sans-serif;
+    font-weight: 300px;
+    line-height: 1.1;
+}
+.section2 a{
+    color: #414f6b;
+}
+.carousel-inner{
+    position:absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    width: 100%;
+    background: #455572d3;
+} 
+.carousel-item{
+    height: 105px;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+.carousel-item img{
+    width: 125px;
+    transform: translateX(-50%)
+}
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 5px; /* change width */
+    height: 5px; /* change height */
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+    border-radius: 100%;
+}
+.floatText2{
+    width: 150px;
+    margin: 10px 0 10px 110px;
+}
+.floatLorem2{
+    width: 550px;
+    font-size: 14px;
+    padding-top: 20px;
+    margin-left: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300px;
+}
+.section3Wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    position:relative;
+    right: 70px;
+}
+.section3{
+    position: relative;
+}
+
+.tabsBar{
+    background: #414f6b;
+    width: 100%;
+    padding-left: 13rem;
+}
+.tabsBar a{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: #b0b4be;
+    font-size: 16px;
+    line-height: 1.1;
+    letter-spacing: -.01em;
+}
+.tabsBar a:active{
+    color: #414f6b;
+}
+
+.nav-item{
+    color: #b0b4be;
+}
+.nav-item:active{
+    color:#414f6b;
+}
+.nav-link.active{
+    text-decoration: underline #414f6b;
+}
+.footer{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #414f6b;
+    color: #63769d;
+    height: 75px;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: .05em;
+}
+.logoWrapper img{
+    padding: 5px;
+}
+#footerText{
+    margin-top: 15px;
+}
+#layer3.active, #layer4.active{
+    display:block;
+}
+#layer3, #layer4{
+    display: none;
+    width: 100%;
+    height: 450px;
+}
+#tab1:hover, #tab2:hover{
+    color: #333;
+}
+#finalText1{
+    width: 23vw;
+    color:#63769d;
+    padding: 10px 1rem 10px 1rem;
+    position: absolute;
+    top: 40%;
+    left: 18%;
+    line-height:1;
+    background: rgba(255, 255, 255, 0.527);
+    display: none;
+}
+#finalText1 h3, #finalText2 h3{    
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+#finalText1 p, #finalText2 p{
+    font-family: 'Lato', sans-serif;
+    color: #333;
+    font-size: 12px;
+}
+#finalText2{
+    width: 23vw;
+    color:#63769d;
+    padding: 10px 1rem 10px 1rem;
+    position: absolute;
+    top: 40%;
+    left: 18%;
+    line-height:1;
+    background: rgba(255, 255, 255, 0.527);
+    display: none;
+}
+#finalText1.active, #finalText2.active{
+    display: block;
+}
+.mobileView{
+    display: none;
+}
+@media (max-width: 960px){
+    .floatLorem, .floatLorem2{
+        font-size: 14px;
+    }
+    .carouselContainer{
+        width: 100vw;
+    }
+    #finalText1 p, #finalText2 p{
+        font-size: .7rem;
+    }
+}
+
+@media (max-width: 590px){
+   .mobileView{
+       display: block;
+   }
+   .content, .navBar, .section1, .section2, .section3, .navLinkText{
+       display: none;
+   }
+   
+   .floatTextMobile, .floatText2Mobile {
+       top: 150px;
+       width: 50%;
+   }
+   .floatLoremMobile, .floatLorem2Mobile{
+       top: 250px;
+       font-size: 12px;
+       width: 100%;
+   }
+   #layer3Mobile, #layer4Mobile{
+       display: none;
+       width: 100%
+   }
+   #layer3Mobile.active, #layer4Mobile.active{
+       display: block;
+   }
+   .carouselContainer.mobile{
+       width: 100vw;
+       margin-top: 7rem;
+   }
+   #finalText1Mobile, #finalText2Mobile{
+       display: none;       
+   }
+   #finalText1Mobile.active, #finalText2Mobile.active{
+       padding-left: 1rem;
+        display: block;       
+}
+#tab1Mobile, #tab2Mobile{
+    color:  #b0b4be;
+}
+.tabsBar a:active{
+    color: #b0b4be;
+}
+#tab1Mobile, #tab2Mobile{
+    font-weight: bold;
+}
+    #tab1Mobile:hover, #tab2Mobile:hover{ 
+        color: #414f6b;
+        background: #b0b4be;
+    }
+    .section3Wrapper{
+        display: block;
+        margin-bottom: 30px;
+        padding: 0 0 10px 5rem;
+        width: 100%;
+    }
+    .footer{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+   
+    .footer p{
+        font-size: 6px;
+    }
+    .logoWrapper{
+        display: inline;
+    }
+    #bottomLogo{
+        width: 30px;
+    }
+    #bottomLogoTExt{
+        width: 30px;
+    }
+}
